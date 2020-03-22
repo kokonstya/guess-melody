@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*
+ * Стили для футера сайта
+ */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  width: 780px; }
+
+.copyright {
+  text-align: right;
+  color: #f0eed5;
+  white-space: nowrap; }
+
+.copyright__logo:hover, .copyright__logo:focus {
+  opacity: 0.8; }
+
+.copyright__logo:active {
+  opacity: 0.6; }
+
+.copyright__text {
+  margin: 0;
+  margin-top: 10px; }
+
+.copyright__link {
+  color: #ff9749; }
+  .copyright__link:hover, .copyright__link:focus {
+    color: #f00000; }

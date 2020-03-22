@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*
+ * Стили для экрана с результатами игры на выбор исполнителя
+ */
+.result--artist .result__title {
+  margin-top: 20px; }
+
+.result--artist .result__replay {
+  margin-top: 15px; }
+
+.result--artist .result__total {
+  margin: 0; }
+
+.result__answer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px; }
