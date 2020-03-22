@@ -725,7 +725,7 @@
     answers.forEach((item, i) => {
       screenAnswers[`artist-${i}`] = {
         song: {
-          name: item.title,
+          //name: item.title,
           image: item.image.url
         },
         correct: item.isCorrect
@@ -760,7 +760,7 @@
   };
 
   // const URL = `https://es.dump.academy/guess-melody`;
-  const URL = `https://htmlacademy-react-2.appspot.com/guess-melody/questions`;
+  const URL = `https://htmlacademy-react-2.appspot.com/guess-melody`;
 
   const APP_ID = 33883388;
   const Statuses = {
