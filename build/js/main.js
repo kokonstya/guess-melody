@@ -725,8 +725,8 @@
     answers.forEach((item, i) => {
       screenAnswers[`artist-${i}`] = {
         song: {
-          //name: item.title,
-          image: item.image.url
+          name: item.title,
+          // image: item.image.url
         },
         correct: item.isCorrect
       };
