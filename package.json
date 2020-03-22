@@ -1,0 +1,40 @@
+{
+  "name": "GuessMelody",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint 'sass/**/*.scss' --syntax scss",
+    "eslint": "eslint ./gulpfile.js js/",
+    "build": "gulp build",
+    "start": "gulp serve",
+    "test": "npm run eslint && npm run stylelint && gulp test"
+  },
+  "devDependencies": {
+    "autoprefixer": "9.0.2",
+    "browser-sync": "^2.26.7",
+    "chai": "4.1.2",
+    "css-mqpacker": "7.0.0",
+    "del": "3.0.0",
+    "eslint": "4.19.1",
+    "eslint-config-htmlacademy": "0.5.x",
+    "gulp-better-rollup": "3.3.0",
+    "gulp-csso": "3.0.1",
+    "gulp-imagemin": "4.1.0",
+    "gulp-mocha": "6.0.0",
+    "gulp-plumber": "1.2.0",
+    "gulp-postcss": "7.0.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "2.6.4",
+    "rollup-plugin-commonjs": "9.1.5",
+    "stylelint": "9.4.x",
+    "stylelint-config-htmlacademy": "0.1.x"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
